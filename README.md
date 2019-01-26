@@ -1,0 +1,6 @@
+# Plant Disease Detector - Abstract
+
+Crop diseases are a major threat to food security, but their rapid identification remains difficult in many parts of the world due to the lack of the necessary infrastructure. The combination of increasing global smartphone penetration and recent advances in computer vision made possible by deep learning has paved the way for smartphone-assisted disease diagnosis. Using a public dataset of 54,306 images of diseased and healthy plant leaves collected under controlled conditions, we train a deep convolutional neural network to identify 38 classes with name of crop and its disease (or absence thereof). The trained model achieves an accuracy of 90.23% on a held- out test set, demonstrating the feasibility of this approach. We also trained a network to identify 21 classes that included the name of disease in the given crop. This model achieved an accuracy of 92.27%. At the end we trained a network to distinguish between healthy and diseased crop and got a test accuracy of 98.89%. Overall, the approach of training deep learning models on increasingly large and publicly available image datasets presents a clear path towards smartphone- assisted crop disease diagnosis on a massive global scale.
+
+
+Please take a look at FinalProjctReport.pdf for details.
